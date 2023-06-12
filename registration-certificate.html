@@ -95,16 +95,14 @@
                         <hr>
                         <div class="f-division">
                             <div class="profile-scan">
-                                <div class="studentID"><img src="img/studentPhotos.png" alt="student ID Photo"></div>
+                                <div class="studentID"><img src="{{credentialSubject.orgLogo}}" alt="student ID Photo"></div>
                                 <div class="sig-attest"><img src="img/studentAttest.png" alt="Attest photo ID"></div>
-                                <div class="scanner"><img src="img/scanner.png" alt="scanner"></div>
+                                <div class="scanner"><img src="{{qrCode}}" alt="scanner"></div>
     
                             </div>
                             <div class="org-section text-center primary-color">
-                                <span class="d-block">Registrar
-                                    U.P. Nurses & Midwives Council
-                                    Lucknow</span>
-                                <span class="barcode d-block mt-10"><img src="img/barcode.png" alt="bar code"></span>
+                                <span class="d-block">Registrar U.P. Nurses & Midwives Council Lucknow</span>
+                                <span class="barcode d-block mt-10"><img src="{{{credentialSubject.barCode}}} alt="bar code"></span>
                             </div>
                             
                         </div>
