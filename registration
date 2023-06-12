@@ -173,6 +173,12 @@
     "@context": {
       "name":"schema:Text"
     }
+    },
+    "registrationNo":{
+    "@id":"https://github.com/sunbird-specs/vc-specs#registrationNo",
+    "@context": {
+      "name":"schema:Text"
+    }
     }
   }
 }
